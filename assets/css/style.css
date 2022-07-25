@@ -61,12 +61,17 @@ body {
 }
 
 /*Seção Conteúdo*/
+
+h3 {
+  font-weight: bold;
+}
 .secao-conteudo {
   padding : 50px 20px;
 }
 
-.imagem-conteudo{
-  width: 250px;
+.img-conteudo{
+  padding-top: 5%;
+  width: 200px;
   height: 180px;
 }
 
@@ -106,6 +111,7 @@ font-size: 18px;
 .lista-serviços  {
 font-size: 18px;
 padding: 10px;
+list-style: disc;
 }
 
 .informacao-contato {
@@ -116,5 +122,7 @@ text-align:center;
 
 .contato {
   font-weight: bold;
-  
+  font-size: 20px;
+  padding-bottom: 0.5rem;
 }
+
